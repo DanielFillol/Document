@@ -17,13 +17,13 @@ import "github.com/DanielFillol/Document"
 ### ValidateCPF
 The ValidateCPF function takes a string as input and returns a boolean value indicating whether the input is a valid CPF number. If the input is not a valid CPF number, the function returns false.
 ```go
-isValid := document.ValidateCPF("123.456.789-09")
+isValid := Document.ValidateCPF("123.456.789-09")
 ```
 
 ### ValidateCNPJ
 The ValidateCNPJ function takes a string as input and returns a boolean value indicating whether the input is a valid CNPJ number. If the input is not a valid CNPJ number, the function returns false.
 ```go
-document.ValidateCNPJ("12.345.678/0001-00")
+isValid := Document.ValidateCNPJ("12.345.678/0001-00")
 ```
 
 ## How it works
